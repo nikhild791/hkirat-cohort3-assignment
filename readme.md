@@ -1,0 +1,1 @@
+flex-grow => make the size of the box according to number 1,2,3 size will be one time 2 time 3 time

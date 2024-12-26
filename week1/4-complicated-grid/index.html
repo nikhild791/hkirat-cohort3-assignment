@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More complecated grid</title>
+</head>
+<style>
+    .container{
+        width: 1200px;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+    }
+    .left{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .right{
+        background-color: blue;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+</style>
+<body style="display: flex; justify-content: center;">
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <div class="left_top">
+                    <h1>Left</h1>
+                </div>
+                <div class="left_bottom">
+                    <h2>text text text text text text text text text text text text </h2>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right_first">
+
+                    <h1>col 1</h1>
+                    <h1>col 1</h1>
+                    <h1>col 1</h1>
+                </div>
+                <div class="right_second">
+
+                    <h1>col 2</h1>
+                    <h1>col 2</h1>
+                    <h1>col 2</h1>
+                </div>
+                <div class="right_third">
+
+                    <h1>col 3</h1>
+                    <h1>col 3</h1>
+                    <h1>col 3</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
