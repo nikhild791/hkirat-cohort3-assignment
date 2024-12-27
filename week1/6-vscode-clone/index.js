@@ -6,15 +6,6 @@ updateBannerbtn.addEventListener('click',()=>{
     updateBannerbtn.style.visibility="hidden";
 })
 
-// window.onscroll = function() {
-
-//     allSections.forEach(section => {
-    
-//         if(section.getBoundingClientRect().top >= -400 && section.getBoundingClientRect().top <= 150)
-//             section.classList.add("your-active-class");
-//         else
-//             section.classList.remove("your-active-class");  
-//     })}
 const navBar = document.getElementsByTagName("nav")[0]
 
     function scrollFunction() {
@@ -26,6 +17,6 @@ const navBar = document.getElementsByTagName("nav")[0]
                }
        
        }
-       window.onscroll = function () {
-         scrollFunction();
+window.onscroll = function () {
+        scrollFunction();
        };

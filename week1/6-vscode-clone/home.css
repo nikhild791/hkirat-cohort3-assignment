@@ -213,13 +213,13 @@ transition: opacity 0.2s ease-in;
 }
 
 .three-col-feature{
-    padding-top: 92px;
+    padding: 92px 40px 0 40px;
 }
 
 .three-col-feature-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -230,8 +230,8 @@ transition: opacity 0.2s ease-in;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    padding: 16px;
+    width: 31%;
+    padding: 21px 17px;
 }
 
 .three-col-feature-box h1{
@@ -356,4 +356,83 @@ gap: 23px;
     border-radius: 12px;
     width: 100%;
     height: auto;
+}
+
+.create-faster-second-left{
+    padding: 110px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.create-faster-second-left h1{
+    margin: 10px;
+}
+.create-faster-second-left p{
+    margin: 10px;
+}
+.create-faster-second-left a{
+    margin: 10px;
+}
+
+.extensios-grid-container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 16px;
+}
+
+.extensions-grid-column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 16px;
+}
+
+
+.extensions-grid-column>div {
+    display: flex;
+    gap: 12px;
+    padding: 7px 10px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+}
+.extensios-grid-container>div:nth-child(1) {
+opacity: 0.9;
+}
+.extensios-grid-container>div:nth-child(2) {
+opacity: 0.6;
+}
+.extensios-grid-container>div:nth-child(3) {
+opacity: 0.3;
+}
+.extensions-grid-column>div h2{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: rgb(36,36,36);
+}
+.extensions-grid-column>div p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgb(71, 85, 105);
+}
+
+.extensions-grid-column>div img{
+    width: 50px;
+    height: 50px;
+}
+
+.extensios-grid-bottom{
+    margin-top: 16px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgb(28,4,4);
+}
+.extensios-grid-bottom a{
+    color: #4daafc;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
 }
