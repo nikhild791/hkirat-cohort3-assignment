@@ -1,0 +1,35 @@
+.footer{
+    padding: 96px 40px;
+   
+}
+
+.footer_row ul li {
+    list-style: none;
+    float: left;
+    margin-right: 23px;
+}
+.footer_row ul li a{
+    text-decoration: none;
+    color: rgb(71,85,105);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.footer_row ul li a img{
+   max-width: 24px;
+}
+.footer_row ul li:nth-child(1) a img{
+   max-width: 18px;
+}
+
+.footer-first{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.footer_main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
