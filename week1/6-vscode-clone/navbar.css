@@ -1,3 +1,11 @@
+nav{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0);
+    background-color: white;
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -102,7 +110,7 @@ font-weight: 600;
 
 .nav_input_search{
     padding: 5px 12px 5px 36px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 200px;
 
@@ -121,7 +129,7 @@ font-weight: 600;
 }
 
 .nav_btn_download{
-    background-color: #356AB9;
+    background-color: #0078d4;
     color: white;
     outline-style: none;
     font-weight: 600;
